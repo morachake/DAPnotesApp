@@ -9,6 +9,7 @@ function App() {
   const [notes, setNotes] = useState([]);
 
   function addNote(newNote) {
+    dkeeper_backend.createNote(newNote.title , newNote.content)
     setNotes(prevNotes => {
       return [...prevNotes, newNote];
     });

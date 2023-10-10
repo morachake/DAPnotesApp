@@ -52,5 +52,8 @@
     "react-dom": "^16.8.2",
     "react-scripts": "5.0.0",
     "uuid": "8.3.2"
+  },
+  "browser": {
+    "[module-name]": false   
   }
 }
